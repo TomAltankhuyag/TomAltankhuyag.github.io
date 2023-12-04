@@ -1,1 +1,166 @@
-<!doctype html><html lang="pug"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1"/><title>MyTube</title><script defer="defer" src="/js/chunk-vendors.d8044a70.js"></script><script defer="defer" src="/js/app.288265cb.js"></script><link href="/css/chunk-vendors.e799746c.css" rel="stylesheet"><link href="/css/app.e15574e0.css" rel="stylesheet"></head><body><div id="app"></div></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <link rel="stylesheet" href="./css/index.css">
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tom's Website</title>
+</head>
+
+<body>
+
+    <div class="my-header">
+        
+         <a href="#home"><h1> Tom's Website </h1> </a>
+        <div id="my-header"> </div>
+        <div class="links">
+            <ul>
+                <a href="#home"><li>About Me</li></a>
+                <a href="#showcase"><li>ShowCase</li></a>
+                <a href="#connectus"><li>ConnectUs</li></a>
+                <!-- <a href="#home"><li>Home</li></a> -->
+                
+            </ul>
+        </div>
+    
+    </div>
+
+
+
+    <div class="about-me" id="home">
+        <div class="container">
+            <div id="profile-picture">
+                <img src="./images/profilePic.jpg" class="pImg">
+            </div>
+        </div>
+        <div class="container">
+            <div id="about-name">
+                <h1>Dagvadorj (Tom) Altankhuyag</h1>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="description">
+                <p>
+                    Hello, my name is Dagvadorj (Tom) Altankuyag and I have just completed my 3rd year Software Engineering student at the University of Calgary. I am currently looking for an Internship commencing Fall 2022, I am passionate for Full Stack Development and everything in between.
+                </p>
+                <p>
+                   I am enthusiastic for technology, weightlifting, video gaming, longboarding and music! I love to experience new things, and constantly broadan my horizon.
+                   That includes learning new technologies (frameworks, languages etc.), learning about other people's hobbies and interests, trying out new sports and activities and let's not forget about tasting new types of food!
+                </p>
+                <p>
+                    This website was built using basic HTML, CSS and JavaScript. I am currently working on a web project using ReactJS, the current website will be updated the moment it is ready to publish.
+                </p>
+                
+            </div>
+
+        </div>
+
+        <div class="container">
+            <a href="Tom_s_Resume_.pdf" download>Resume</a>
+        </div>
+
+    </div>
+
+    <div class="project-post" id="showcase">
+        <div class="container">
+            <div class="project-picture">
+                <img src="./images/ShowCase-HomePage.png" alt="">
+            </div>
+        </div>
+       
+        <div class="container">
+            <div class="project-header">
+            <h1>ShowCase </h1>
+            <p>(Project Lead)</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="project-description">
+                <p> ShowCase is an app that lets users create their own portolio pages. I have had the opportunity to lead the project and have gained invaluable experience. The full-stack application uses ReactJS as the Front-End, Google Cloud SQL as the backend, and NodeJs & RESTful API to bind the stack.</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <!-- <div class="project-github-link" > -->
+                <a href="https://github.com/TomAltankhuyag/ShowCase-Front" target="_blank">GitHub Repo</a>
+            <!-- </div> -->
+        </div>
+
+
+    </div>
+
+    <div class="project-post" id="connectus">
+        <div class="container">
+            <div class="project-picture">
+                <img src="./images/connectUs-profile.png" alt="">
+            </div>
+        </div>
+       
+        <div class="container">
+            <div class="project-header">
+            <h1>ConnectUs</h1>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="project-description">
+                <p> ConnectUs is an app that lets students and faculty members to create UofC profiles to connect with other end users.
+                    The project was a fantastic introduction to Full-Stack development using ReactJS, MySQL, NodeJS (RESTful).
+                </p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="project-github-link" >
+                <a href="https://github.com/Aifaz22/Connect-us" target="_blank">GitHub Repo</a>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <!-- <div class="contact">
+        <div class="container">
+
+        </div>
+    </div> -->
+
+
+
+
+    <!-- <div class="about-me">
+        <div class="container">
+            <div id="profile-picture">
+                <img src="./images/profilePic.jpg" class="pImg">
+            </div>
+        </div>
+    </div>
+
+    <div class="about-me" id="test1">
+        <div class="container">
+            <div id="profile-picture">
+                <img src="./images/profilePic.jpg" class="pImg">
+            </div>
+        </div>
+    </div> -->
+
+
+    <footer id="main-footer">
+        <p>---Dagvadorj (Tom) Altankhuyag---403.919.3591---tomaltankhuyag@outlook.com---</p>
+        <p id="footer-date"></p>
+    </footer>
+    <script>
+        document.getElementById("footer-date").innerHTML = Date().substring(0,25)
+        </script> 
+
+    <!-- hello skrrr -->
+</body>
+
+</html>
